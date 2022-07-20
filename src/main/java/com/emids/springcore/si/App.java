@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        ApplicationContext ac = new ClassPathXmlApplicationContext("config.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("com/emids/springcore/si/config.xml");
         Student s = (Student)ac.getBean("student");
         System.out.println(s);
     }

@@ -8,7 +8,7 @@
         https://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="..." class="com.emids.springcore.Student" name="student">  
+    <bean id="..." class="com.emids.springcore.si.Student" name="student">  
         <!-- collaborators and configuration for this bean go here -->
         <property name="id"><value>1</value></property>
         <property name="name"><value>deepak</value></property>
