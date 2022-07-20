@@ -1,0 +1,5 @@
+1.create simple maven project
+2.add dependencies for Spring Core & Context
+3.create configuration file config.xml
+4.using setter injection
+6.pull object in main class
